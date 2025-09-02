@@ -28,9 +28,12 @@ for (int i = 10; i >= 0; i--) {
 4.Sum of Even Numbers from 1 to 10
 
 int sum = 0;
+
 for (int i = 2; i <= 10; i += 2) {
+
     sum += i;
 }
+
 System.out.println("Sum of even numbers from 1 to 10 is: " + sum);
 
 
@@ -48,6 +51,4 @@ Reinforced loop fundamentals for iteration and logic building.
 
 
 ---
-
-Do you also want me to make a **Day 2 folder structure suggestion** (like `Day_2/Loops_02.java` + `README.md`) so it looks clean on GitHub?
 
