@@ -6,17 +6,17 @@ This file contains simple Java programs using **for loops** to practice iteratio
 
 ## ✅ Programs Covered
 
-1. **Even Numbers from 0 to 10**
+1. **Even Numbers from 1 to 20
    ```java
-   for (int i = 0; i <= 10; i += 2) {
-       System.out.println(i);
+   for (int i = 0; i <= 20; i++) {
+       System.out.println(2*i);
    }
 
-2. Odd Numbers from 1 to 10
+2. Odd Numbers from 1 to 20
     
- for (int i = 1; i <= 10; i += 2) {
+ for (int i = 1; i <= 20; i++) {
 
-    System.out.println(i);
+    System.out.println(2*i+1);
    
 }
 3. Reverse Counting from 10 to 0
@@ -25,13 +25,15 @@ for (int i = 10; i >= 0; i--) {
 
     System.out.println(i);
 }
-4.Sum of Even Numbers from 1 to 10
+4.Sum of Even Numbers from 1 to 100
 
 int sum = 0;
 
-for (int i = 2; i <= 10; i += 2) {
+for (int i = 1; i <= 50; i++) {
 
-    sum += i;
+   int even = 2*i;
+   
+   sum = sum + even;
 }
 
 System.out.println("Sum of even numbers from 1 to 10 is: " + sum);
